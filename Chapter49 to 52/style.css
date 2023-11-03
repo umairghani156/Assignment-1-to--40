@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #C4CCC4;
+}
+.formVali{
+    margin-top: 10%;
+    border: 1px solid grey;
+    width: 320px;
+    height: 360px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signUpform{
+    width: 220px;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    outline-color: rgb(11, 151, 25);
+    margin-top: 2px;
+    padding-left: 5px;
+}
+label{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+btn{
+    width: 220px;
+    height: 27px;
+    background-color: dodgerblue;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+span{
+    color: rgb(255, 0, 0);
+}
+.signUp{
+    margin-top: 10%;
+    width: 320px;
+    height: 160px;
+    font-size: 20px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+ul li{
+   display: flex;
+   justify-content: space-between;
+   width: 220px;
+   height: 30px;
+   border: 1px solid grey;
+}
+table {
+    width: 300px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+table thead tr{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(237, 134, 9);
+    padding: 5px 1px;
+}
+table thead tr th{
+    margin-right: 15px;
+    color: white;
+}
+table tbody tr{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 7px;
+    background-color: white;
+}
+.container{
+    width: 350px;
+}
+.btn{
+    color: white;
+}
+#edit{
+    border: 1px solid grey;
+    padding: 2px 4px;
+    border-radius: 15px;
+    background-color: rgb(68, 188, 240);
+
+}
+#edit:hover{
+    background-color: #069111;
+    color: white;
+}
+#dlt{
+    border: 1px solid grey;
+    padding: 2px 4px;
+    border-radius: 15px;
+    background-color: rgb(68, 188, 240)
+}
+#dlt:hover{
+   background-color: red;
+   color: white;
+}
+.detail{
+    width: 300px;
+}
+@media (max-width: 300px){
+    .container{
+        width: 230px;
+    }
+}
